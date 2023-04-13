@@ -1,0 +1,61 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta charset="UTF-8" />
+<!-- 避免IE使用兼容模式 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="description" /><meta name="keywords" />
+<!-- 强制让文档的宽度与设备的宽度保持1:1 -->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<!-- 允许全屏模式浏览(safari私有) -->
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<!-- 它指定的iphone中safari顶端的状态条的样式 -->
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<!-- 告诉设备忽略将页面中的数字识别为电话号码 -->
+<meta content="telephone=no" name="format-detection" />
+<!-- 禁止百度转码 -->
+<meta http-equiv="Cache-Control" content="no-siteapp" /><title>
+	扫描结果-二维码扫码
+</title>
+<!-- 框架ui -->
+    <link rel="stylesheet" href="css/amazeui.min.css" /><link rel="stylesheet" href="css/core.css" />
+    <!-- 系统 -->
+    <link rel="stylesheet" href="css/master.css" />
+    <!-- 布局 -->
+    <link rel="stylesheet" href="css/layout.css" />
+    <!-- 样式 -->
+    <link rel="stylesheet" href="css/main.css" /><link href="css/twocode.css" rel="stylesheet" /></head>
+<body>
+    <form name="form1" method="post" action="two_code.aspx" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNjM1NzU2NTAyD2QWAgIDD2QWBAIDD2QWAgIBDxYCHgRUZXh0Bc8JPHRhYmxlIGJvcmRlcj0iMSIgY2VsbHBhZGRpbmc9IjAiIGNlbGxzcGFjaW5nPSIwIiBjbGFzcz0iYW0tdGFibGUgYW0tdGFibGUtYm9yZGVyZWQgb3V0LXRhYmxlIj48dHI+PHRkPuaKpeWRiuWQjeensDwvdGQ+PHRkPuilv+WuieS6ruS4veeUteWKm+mbhuWbouaciemZkOi0o+S7u+WFrOWPuOmEoOmCkeeUteWKm+W3peeoi+WIhuWFrOWPuOi9puW6k+aUuemAoOWKoOWbuuWQjue7k+aehOWuieWFqOaAp+S4juaKl+mch+aAp+iDvTwvdGQ+PC90cj48dHI+PHRkPuaKpeWRiue8luWPtzwvdGQ+PHRkPlhBSkQtSkcoQSkyMk4wMDU2MDAwPC90ZD48L3RyPjx0cj48dGQ+5oi/5bGL5Zyw5Z2APC90ZD48dGQ+6KW/5a6J5biC6YSg6YKR5Yy65YWG5Liw6KW/6LevPC90ZD48L3RyPjx0cj48dGQ+5aeU5omY5pa5PC90ZD48dGQ+6KW/5a6J6YKm6LWi5bu66K6+5bel56iL5pyJ6ZmQ5YWs5Y+4PC90ZD48L3RyPjx0cj48dGQ+5p2D5bGe6K+B5piOPC90ZD48dGQ+PC90ZD48L3RyPjx0cj48dGQ+6Ym05a6a5py65p6EPC90ZD48dGQ+6KW/5a6J5bu6562R56eR5aSn5bel56iL5oqA5pyv5pyJ6ZmQ5YWs5Y+4PC90ZD48L3RyPjx0cj48dGQ+6Ym05a6a5py65p6E6IGU57O75pa55byPPC90ZD48dGQ+MDI5LTgyMjAyNzE2PC90ZD48L3RyPjx0cj48dGQ+5aeU5omY5pe26Ze0PC90ZD48dGQ+MjAyMi0xMS0yOCAwMDowMDowMDwvdGQ+PC90cj48dHI+PHRkPuaIv+Wxi+eUqOmAlDwvdGQ+PHRkPuWFtuS7ljwvdGQ+PC90cj48dHI+PHRkPuW7uumAoOW5tOS7ozwvdGQ+PHRkPjIwMDXlubQ8L3RkPjwvdHI+PHRyPjx0ZD7nu5PmnoTnsbvlnos8L3RkPjx0ZD7pkqI8L3RkPjwvdHI+PHRyPjx0ZD7lu7rnrZHpnaLnp688L3RkPjx0ZD4xODM25bmz5pa557GzPC90ZD48L3RyPjx0cj48dGQ+5bu6562R5bGC5pWwPC90ZD48dGQ+MjwvdGQ+PC90cj48dHI+PHRkPumJtOWumuS+neaNrjwvdGQ+PHRkPuOAiuawkeeUqOW7uuetkeWPr+mdoOaAp+mJtOWumuagh+WHhuOAi++8iEdCIDUwMjkyLTIwMTXvvIkK44CK5pei5pyJ5bu6562R6Ym05a6a5LiO5Yqg5Zu66YCa55So6KeE6IyD44CL77yIR0IgNTUwMjEtMjAyMe+8iQrjgIrlu7rnrZHmipfpnIforr7orqHop4TojIPjgIvvvIhHQiA1MDAxMS0yMDEw77yJ77yIMjAxNueJiO+8iTwvdGQ+PC90cj48dHI+PHRkPuWkh+azqDwvdGQ+PHRkPuivpue7humJtOWumuaDheWGteivt+afpeeci+WujOaVtOmJtOWumuaKpeWRijwvdGQ+PC90cj48L3RhYmxlPmQCBQ8WAh4HVmlzaWJsZWhkZI2TaCwsLD+HOy7Q2yaLhgngrHGE" />
+</div>
+
+    <div> 
+        <header class="headerin">
+	            <div>
+		            <div class="tit">扫描信息
+		            </div>
+	            </div>
+            </header>
+      <div class="lay">
+        <div class="infocon">
+        <div id="panTishi" class="tishi">提示：请核验表单内容是否与以下信息一致。</div>
+          <div id="panContent" class="content">
+              <table border="1" cellpadding="0" cellspacing="0" class="am-table am-table-bordered out-table"><tr><td>报告名称</td><td>西安亮丽电力集团有限责任公司鄠邑电力工程分公司车库改造加固后结构安全性与抗震性能</td></tr><tr><td>报告编号</td><td>XAJD-JG(A)22N0056000</td></tr><tr><td>房屋地址</td><td>西安市鄠邑区兆丰西路</td></tr><tr><td>委托方</td><td>西安亮丽电力集团有限责任公司</td></tr><tr><td>权属证明</td><td></td></tr><tr><td>鉴定机构</td><td>西安建筑科大工程技术有限公司</td></tr><tr><td>鉴定机构联系方式</td><td>029-82202716</td></tr><tr><td>委托时间</td><td>2022-11-28 00:00:00</td></tr><tr><td>房屋用途</td><td>其他</td></tr><tr><td>建造年代</td><td>2005年</td></tr><tr><td>结构类型</td><td>钢</td></tr><tr><td>建筑面积</td><td>1836平方米</td></tr><tr><td>建筑层数</td><td>2</td></tr><tr><td>鉴定依据</td><td>《民用建筑可靠性鉴定标准》（GB 50292-2015）
+《既有建筑鉴定与加固通用规范》（GB 55021-2021）
+《建筑抗震设计规范》（GB 50011-2010）（2016版）</td></tr><tr><td>备注</td><td>详细鉴定情况请查看完整鉴定报告</td></tr></table>
+           </div>
+            
+       </div>
+      </div>
+    </div>
+        <script>
+                if (document.getElementById("hidetip")) {
+                    document.getElementById("panTishi").innerText = "";
+                }
+        </script>
+    </form>
+</body>
+</html>
